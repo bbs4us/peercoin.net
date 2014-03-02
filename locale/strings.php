@@ -6,6 +6,7 @@ $locale_strings['en']['price'] = "Price";
 $locale_strings['en']['market_cap'] = "Market Cap";
 $locale_strings['en']['total_supply'] = "Total Supply";
 $locale_strings['en']['big_welcome_header'] = "Secure. Sustainable. <span><strong>Peercoin</strong> is here.";
+
 $locale_strings['en']['ticker_last_updated'] = "Last updated: ";
 $locale_strings['en']['ticker_last_updated_never'] = "never";
 
@@ -74,7 +75,51 @@ $locale_strings['en']['mining'] = "Mining";
 
 
 $locale_strings['fr']['big_welcome_header'] = "Sûr. Durable. <span><strong>Peercoin</strong> est ici.";
-
+$locale_strings['zh_cn']['faq_header'] = "常见<span>问题</span>";
+$locale_strings['zh_cn']['faq_q_title_innovation'] = " 说说你们的创新之处。";
+$locale_strings['zh_cn']['faq_q_desc_innovation'] = "
+				        <p>点点币引以为豪的创新之处就是权益证明和工作量证明混合系统。</p>
+						<p>就像其他加密货币， 刚开始，货币通过挖矿产生。 但是，与其他加密货币不同的是，随着挖矿难度的提高，持币者将可以随时间推移而获得利息。例如，拥有1%货币的人将可以获得1%利息区块的货币。</p>
+						<p>并且，在带来了更高的安全级别和更高的能效后，权益证明和工作量证明混合系统可以抵御其他加密货币所经受的紧缩倾向。</p>
+";
+$locale_strings['zh_cn']['faq_q_title_security'] = "说说你们的安全特性。";
+$locale_strings['zh_cn']['faq_q_desc_security'] = "
+					      <p>使用权益证明和工作量证明混合系统算法产生的区块可以避免自私矿工攻击和\">50%\"攻击,不易于像其他货币一样被不法之徒危害.</p>
+						<p>权益证明和工作量证明混合系统算法作为安全加密的核心，因为它极大地加大了攻击的难度和代价。获得51%的现有货币远比获得51%的矿工难多了. 并且在\">50%\"攻击中攻击者会有巨大的风险，因为，他如果拥有货币的绝大多数，他就需要自己承担价值受损的风险。</p>
+						<p>点点币同时在协议层面强制了交易费来防止被不法之徒危害。</p>";
+$locale_strings['en']['faq_q_title_efficiency'] = "说说你们的能效。";
+$locale_strings['en']['faq_q_desc_efficiency'] = "
+   <p>产生权益证明区块耗能比产生工作量证明区块少。 在长远上，当挖矿效益低时，大部分的区块将会是证明型股权区块，这将是非常环保的.</p>
+				        <p>证明型股权还可以防止出现像比特币一样的十亿美元税金事件。 你可以了解关于此事件的<a href="http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/">更多信息</a>。</p>";
+$locale_strings['zh_cn']['more_ellipsis'] = "更多...";
+$locale_strings['zh_cn']['links'] = "链接";
+$locale_strings['zh_cn']['installing_wallet'] = "安装钱包";
+$locale_strings['zh_cn']['setting_up_wallet'] = "设置钱包";
+$locale_strings['zh_cn']['tools'] = "工具";
+$locale_strings['zh_cn']['exchanges'] = "交易所";
+$locale_strings['zh_cn']['big_welcome_header'] = "安全。 可持续。 <span><strong>点点币</strong> 来了。";
+$locale_strings['zh_cn']['tutorials'] = "教程";
+$locale_strings['zh_cn']['mining'] = "挖矿";
+$locale_strings['zh_cn']['faq_q_title_myth1'] = "第 1 条流言 - 点点币只是一个山寨币。";
+$locale_strings['zh_cn']['faq_q_desc_myth1'] = "
+						<p>点点币是一个独特而创新的货币, 绝不简简单单是比特币的一个克隆.
+				           点点币是第一个将权益证明应用到加密货币中的. 事实上，很多货币都在学习点点币把权益证明代码加到他们的源码中.
+						<br/> <br/>
+						   来源: <a href='http://en.wikipedia.org/wiki/PPCoin#Distinguishing_features'>http://en.wikipedia.org/wiki/PPCoin#Distinguishing_features</a>
+						</p>";
+$locale_strings['zh_cn']['faq_q_title_myth2'] = "第 2 条流言- 因为有检查点所以点点币不是分布式货币。";
+$locale_strings['zh_cn']['faq_q_desc_myth2'] = "
+						<p>检查点是一种额外的安全措施，它可以保护处于起步阶段的点点币网络免于攻击。 <i> Sunny King </i> 作出如下解释：</p>
+						<p>&quot;51% 拒绝服务攻击的风险是实际存在的，特别是对于较小的货币网络而言。事实上我不会排除任何一种加密货币（甚至是比特币）受到这种攻击的可能性，当然这样对比特币的攻击不太可能将会是个人发起的，因为这需要大量的资源，但也不能不负责任地说这是不可能的。试想一下当比特币停止处理交易几天，会发生什么。&quot;</p>
+						<p>由于点点币网络去年的大幅发展，检查点将会在未来的版本中被淘汰。</p>";
+$locale_strings['zh_cn']['faq_q_title_myth3'] = "第 3 条流言 - 点点币自然通货膨胀率极高。";
+$locale_strings['zh_cn']['faq_q_desc_myth3'] = "
+						<p>不是这样的。 如果点点币发展迅速, 在交易过程中币的币龄就会很低，也就不会产生利息。这样就没有通胀率高的问题。而且同时交易费会控制交易量防止紧缩。</p>
+						<p>另外比特币现在遇到了必须在到达最终货币量210万前达到<a href="http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/">10%</a>增长率的问题. 这<b>意味着</b>
+				        当无币可挖时，交易税足以支撑整个网络.
+				        <br/><br/>
+				        为了保持良好的体系，点点币有每年1%的利息 （权益证明奖励） 来维持这个网络的安全， 而不管交易税有多低。 就像比特币一样，当大规模交易来临时，点点币将有可能开始紧缩.
+</p>";
 
 
 $locale_strings['es']['big_welcome_header'] = "Seguro. Sostenible. <span><strong>Peercoin</strong> está aquí.";
